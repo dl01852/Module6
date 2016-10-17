@@ -41,6 +41,7 @@
             
             if (asyncRequest.readyState === 4 && asyncRequest.status === 200) {
                 document.getElementById("contentArea").innerHTML = asyncRequest.responseText;
+               
             }
         }
 
